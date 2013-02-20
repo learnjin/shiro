@@ -1,0 +1,29 @@
+
+#include "xcolors/themes/derp"
+
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintlight
+Xft.rgba: rgb
+
+
+!! rxvt configuration
+URxvt.foreground: white
+URxvt.background: rgba:0000/0000/0000/eeee
+URxvt.cursorColor: green
+URxvt.depth: 32
+URxvt.cursorBlink: true
+
+URxvt.scrollBar: off
+URxvt.scrollTtyOutput: False
+URxvt.scrollWithBuffer: False
+URxvt.jumpScroll: True
+URxvt.saveLines: 10000
+
+URxvt.font: xft:Sourcecode Pro:pixelsize=14
+URxvt.letterSpace: -1
+
+URxvt.perl-ext-common: default,matcher,clipboard
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+

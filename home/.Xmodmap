@@ -1,0 +1,17 @@
+! Make CapsLock a control key
+!remove Lock = Caps_Lock
+!keysym Caps_Lock = Control_L
+!add Control = Control_L
+
+! swap ctrl and alt position
+clear control
+clear mod1
+keycode 37 = Alt_L Meta_L
+keycode 64 = Control_L
+add control = Control_L Control_R
+add mod1 = Alt_L Meta_L
+
+!make right alt additional return key
+clear mod2
+keycode 108 = Return
+
