@@ -1,6 +1,6 @@
 # Shiro
 
-Whenever I'm feeling homesick for my shiro (jap: castle), I'm doing a:
+Whenever I'm feeling [homesick](https://github.com/technicalpickles/homesick) for my shiro (jp. for castle), I'm doing a:
 
     homesick clone learnjin/shiro
     homesick symlink learnjin/shiro
